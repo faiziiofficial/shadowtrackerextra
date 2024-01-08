@@ -12,6 +12,4 @@ jobs:
     steps:
       - name: Trigger Jenkins Job
         run: |
-          curl -X POST \
-            -u "your_jenkins_username:your_personal_access_token" \
-            "https://your_jenkins_instance/job/your_job_name/build"
+          curl google.com
